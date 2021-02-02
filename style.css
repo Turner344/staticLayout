@@ -1,0 +1,140 @@
+/* IMAGE/EXTRA LINKS JUST IN CASE: 
+
+-Kast Logo: https://www.kastapp.co/images/kast-logo-horizontal-color-white.svg
+-Laptop: https://www.kastapp.co/images/laptop-large-p-1600.png
+-Purple Gradient: https://www.kastapp.co/images/gradient-violet-bg.jpg
+
+*/
+
+body {
+  height: 200vh;
+  /* background-color: #331a5c; */
+}
+
+.main {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* NAVBAR */
+
+.menu {
+  display: flex;
+}
+
+.item {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.kastLogo {
+  position: relative;
+  width: 20px;
+  height: 10px;
+  margin-top: 18px;
+  margin-left: 0px;
+}
+
+/* MAIN DISPLAY */
+
+.purpleGradient {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  padding-top: 140px;
+  padding-bottom: 110px;
+  min-height: auto;
+  min-width: auto;
+  background-color: #331a5c;
+  background-size: cover;
+  background-image: url(./assets/gradient-violet-bg.jpg);
+}
+
+.middleDisplay {
+  text-align: center;
+  /* padding: 3em; */
+}
+
+#laptopPic {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.watchParties {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 25px;
+}
+
+.watchText {
+  max-width: 560px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.kastButton {
+  min-width: 215px;
+  padding: 8px 18px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: #fe9000;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/* .kastButton:hover{
+  
+} */
+
+/* SECOND SECTION */
+
+.featuredIn {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuredText {
+  color: #434146;
+  font-weight: 800;
+  font-size: 28px;
+  padding: 2em;
+}
+
+.featuredList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featuredPics {
+  margin: auto;
+  width: 32%;
+  padding-bottom: 3%;
+}
+
+.relevant {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  padding: 3em;
+}
