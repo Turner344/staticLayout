@@ -9,10 +9,12 @@
 body {
   height: 200vh;
   /* background-color: #331a5c; */
+  font-family: "Roboto", sans-serif;
 }
 
-.main {
-  font-family: "Roboto", sans-serif;
+a {
+  text-decoration: none;
+  color: white;
 }
 
 ul {
@@ -21,23 +23,42 @@ ul {
 
 /* NAVBAR */
 
+.topNavbar{
+  /* margin-right: 10px; */
+  /* margin-left: 50%; */
+  margin-top: -2em;
+}
+
 .menu {
   display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .item {
   color: white;
   text-decoration: none;
   font-size: large;
+  border: solid 2px transparent;
 }
 
-.kastLogo {
-  position: relative;
-  width: 20px;
-  height: 10px;
-  margin-top: 18px;
-  margin-left: 0px;
+.kastLogo{
+  width: 12em;
+  margin-left: 2px;
 }
+
+.kastButton1{
+  border: solid 2px white;
+  background: transparent;
+  padding: 8px;
+}
+
+#kastButton{
+  border: solid 2px white;
+  background: transparent;
+  padding: 8px;
+}
+
 
 /* MAIN DISPLAY */
 
@@ -47,8 +68,8 @@ ul {
   margin-top: -80px;
   padding-top: 140px;
   padding-bottom: 110px;
-  min-height: auto;
-  min-width: auto;
+  min-height: 50%;
+  min-width: 1024px;
   background-color: #331a5c;
   background-size: cover;
   background-image: url(./assets/gradient-violet-bg.jpg);
@@ -64,6 +85,7 @@ ul {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  padding: 2em;
 }
 
 .watchParties {
@@ -83,33 +105,31 @@ ul {
   padding: 35px;
 }
 
-a {
-  text-decoration: none;
-}
 
 .kastButton {
-  min-width: 215px;
+  min-width: 250px;
   padding: 8px 18px;
-  border-style: solid;
-  border-color: transparent;
   border-radius: 4px;
   background-color: #fe9000;
   color: #ffffff;
   font-size: 18px;
   font-weight: bolder;
   letter-spacing: 2px;
+  border: solid 5px #fe9000;
 }
 
-/* .kastButton:hover{
-  
-} */
+.kastButton:hover{
+  border-width: 6px;
+}
 
 /* SECOND SECTION */
 
 .featuredIn {
   text-align: center;
+  margin-top: 8em;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
 }
 
 .featuredText {
@@ -137,4 +157,38 @@ a {
   font-size: 20px;
   font-style: italic;
   padding: 3em;
+}
+
+/* THIRD SECTION */
+
+.kastIs{
+  text-align: center;
+  background-image: url(./assets/green-bg.jpg);
+  min-height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 14em;
+}
+
+.kastIsHeader{
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 2em;
+}
+
+.kastIsPara{
+  margin-bottom: 30px;
+  line-height: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
